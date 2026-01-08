@@ -207,4 +207,32 @@ header{
 
 }
 
-
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .section3_mini_about_name{
+        color: #30B868;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .section3_about_title{
+        font-size: 48px;
+        font-weight: bold;
+        padding: 16px 0;
+    }.section3_about_details{
+        font-weight: 400;
+        color: var(--description_text);
+        font-size: 16px;
+        padding: 0 0 26px 0;
+    }.section3_about_list{
+        list-style: none;
+        .section3_about_list_item{
+            font-size: 16px;
+            display: flex;
+            padding: 4px 0;
+            gap: 16px;
+            p{font-weight: 500;}
+        }
+    }
+}
