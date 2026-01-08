@@ -23,8 +23,12 @@ body{
     border-radius: 4px;
     cursor: pointer;
     font-weight: 600;
+    font-size: 16px;
 }
 /* custom class  */
+header{
+    padding: 16px 0;
+}
 .top_navigation{
     display: flex;
     justify-content: space-between;
@@ -42,6 +46,7 @@ body{
                 font-size: 16px;
                 font-weight: 500;
                 padding: 0 4px;
+                transition: .2s ease-in-out;
                 &:hover{
                     color: #30B868;
                 }
@@ -50,5 +55,96 @@ body{
     }
     .nav_button{
         color: #fff;
+        transition: all .2s ease-in-out;
+        &:hover{
+            background-color: #19743e;
+        }
+    }
+}
+
+/* padding: 8px 12px gap: 6px w-235px h-35px*/
+.hero{
+    /* background: url("./assets/hero-bg.png") no-repeat; */
+    background: linear-gradient(#ffffff1c,#00193117,#30b86915), url('./assets/hero-bg.png') no-repeat center/cover;
+    min-height: 520px;
+    .hero_badge_container{
+        width: 100%;
+        height: max-content;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0 0 0;
+        .heroBadge{
+            background-color: #fff;
+            width: 235px;
+            height: 35px;
+            border-radius: 1000px;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            align-items: center;
+            svg{
+                margin-top: 5px;
+            }
+        }
+    }
+    .hero_heading{
+        padding: 16px 0;
+        h1{
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 84px;
+            color: #fff;
+            text-align: center;
+            span{
+                color: #30B868;
+                font-size: 78px;
+            }
+        }
+    }
+    .hero_paragrap{
+        padding: 20px 0;
+        p{
+            text-align: center;
+            font-size: 18px;
+            line-height: 30px;
+            color: #fff;
+        }
+    }
+    .hero_buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        padding: 16px 0;
+        .hero_btn1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            gap: 6px;
+            border: 1px solid transparent;
+            transition: all .2s ease-in-out;
+            &:hover{
+                border: 1px solid #fff;
+                color: #fff;
+                background-color: transparent;
+            }
+        }
+        .hero_btn2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            transition: all .2s ease-in-out;
+            &:hover{
+                background-color: #30B868;
+                border: 1px solid transparent;
+            }
+        }
     }
 }
