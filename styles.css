@@ -165,7 +165,10 @@ header {
     border: 1px solid transparent;
     transition: all .2s ease-in-out;
 }
-
+.hero_btn1 span{
+    display: flex;
+    align-items: center;
+}
 .hero_btn1:hover {
     color: #fff;
     background-color: #19743e;
@@ -188,12 +191,15 @@ header {
     border: 1px solid #fff;
     color: #fff;
     transition: all .2s ease-in-out;
-
     svg {
         transition: all .2s ease-in-out;
     }
 }
-
+.hero_btn2 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .hero_btn2:hover {
     background-color: #30B868;
     border: 1px solid transparent;
