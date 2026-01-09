@@ -387,7 +387,6 @@ footer {
     align-items: center;
     gap: 6px;
     padding: 10px 0;
-    position: relative;
 }
 
 .foot_links p {
@@ -396,26 +395,13 @@ footer {
 
 .s_icon {
     cursor: pointer;
-    position: absolute;
-    top: 6px
 }
-
-.s_icon:nth-child(2) {
-    left: 26px;
-}
-
-.s_icon:nth-child(3) {
-    left: 52px;
-}
-
-.s_icon:hover svg {
+.s_icon svg path{
     transition: all .2s ease-in-out;
 }
-
-.s_icon:hover svg {
+.s_icon:hover svg path{
     fill: #19743e;
-    width: 25px;
-    height: 25px;
+    stroke: #fff;
 }
 
 .foot_section2 {
