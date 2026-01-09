@@ -74,10 +74,6 @@ header {
     background-color: #19743e;
 }
 
-
-
-
-
 /* ========================================== hero section ==========================================*/
 .hero {
     background: linear-gradient(#ffffff1c, #00193117, #30b86915), url('./assets/hero-bg.png') no-repeat center/cover;
@@ -91,7 +87,6 @@ header {
     justify-content: center;
     align-items: center;
     padding: 50px 0 0 0;
-
 }
 .hero_badge_container .heroBadge {
     background-color: #fff;
@@ -122,8 +117,6 @@ header {
     color: #30B868;
     font-size: 78px;
 }
-
-
 .hero_paragrap {
     padding: 20px 0;
 }
