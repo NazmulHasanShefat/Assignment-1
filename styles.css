@@ -399,16 +399,20 @@ footer {
     position: absolute;
     top: 6px
 }
-.s_icon:nth-child(2){
+
+.s_icon:nth-child(2) {
     left: 26px;
 }
-.s_icon:nth-child(3){
+
+.s_icon:nth-child(3) {
     left: 52px;
 }
-.s_icon:hover svg{
+
+.s_icon:hover svg {
     transition: all .2s ease-in-out;
 }
-.s_icon:hover svg{
+
+.s_icon:hover svg {
     fill: #19743e;
     width: 25px;
     height: 25px;
@@ -471,9 +475,27 @@ footer {
 
     .hero_heading h1 {
         max-width: 95%;
+        font-size: 52px;
     }
 
     .hero_paragrap p {
         max-width: 95%;
+    }
+
+    .hero_heading h1 span {
+        font-size: 60px;
+    }
+
+    .section4_description {
+        max-width: 100%;
+    }
+
+    .section4 {
+        padding: 80px 0;
+    }
+
+    .section4 h1 {
+        font-size: 53px;
+        font-weight: bold;
     }
 }
