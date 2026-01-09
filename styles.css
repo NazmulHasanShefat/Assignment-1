@@ -32,11 +32,11 @@ body {
     font-size: 16px;
 }
 
+/* ========================================= start top nav ============================================*/
 /* custom class  */
 header {
     padding: 16px 0;
 }
-
 .top_navigation {
     display: flex;
     justify-content: space-between;
@@ -102,10 +102,9 @@ header {
     justify-content: center;
     gap: 6px;
     align-items: center;
-
-    svg {
-        margin-top: 5px;
-    }
+}
+.hero_badge_container .heroBadge svg {
+    margin-top: 5px;
 }
 
 .hero_heading {
@@ -265,7 +264,7 @@ header {
     font-size: 16px;
     display: flex;
     padding: 4px 0;
-    gap: 16px;
+    gap: 6px;
     p {
         font-weight: 500;
     }
