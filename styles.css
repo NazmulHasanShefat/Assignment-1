@@ -122,19 +122,21 @@ header {
 .hero_heading h1 {
     font-weight: 700;
     font-size: 72px;
-    line-height: 84px;
+    line-height: 60px;
     color: #fff;
     text-align: center;
-
+    max-width: 56%;
 }
 
 .hero_heading h1 span {
     color: #30B868;
-    font-size: 78px;
+    font-size: 60px;
 }
 
 .hero_paragrap {
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .hero_paragrap p {
@@ -142,6 +144,7 @@ header {
     font-size: 18px;
     line-height: 30px;
     color: #fff;
+    max-width: 49%;
 }
 
 .hero_buttons {
@@ -164,9 +167,11 @@ header {
 }
 
 .hero_btn1:hover {
-    border: 1px solid #fff;
     color: #fff;
-    background-color: transparent;
+    background-color: #19743e;
+}.hero_btn1 img{transition: all .2s ease-in-out;}
+.hero_btn1:hover img{
+    transform: translateX(3px);
 }
 
 .hero_btn2 {
@@ -178,11 +183,14 @@ header {
     border: 1px solid #fff;
     color: #fff;
     transition: all .2s ease-in-out;
+    svg{transition: all .2s ease-in-out;}
 }
-
 .hero_btn2:hover {
     background-color: #30B868;
     border: 1px solid transparent;
+}
+.hero_btn2:hover svg{
+    transform: scale(0.8);
 }
 
 
@@ -259,7 +267,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .section3_mini_about_name {
@@ -303,6 +310,9 @@ header {
     padding: 80px 40px;
     text-align: center;
     margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section4 h1 {
@@ -314,7 +324,8 @@ header {
     font-size: 16px;
     font-weight: 400;
     color: var(--description_text);
-    padding-top: 16px;
+    padding: 16px 0;
+    max-width: 48%;
 }
 
 .section4_btn_container {
@@ -335,10 +346,16 @@ header {
 
 .section4_btn:hover {
     background-color: #001931;
+    padding: 12px 28px;
 }
 
 .section4 span img {
     margin-top: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.section4_btn:hover span img {
+    transform: translateX(10px);
 }
 
 /* foooter */
@@ -361,7 +378,9 @@ footer {
     gap: 6px;
     padding: 10px 0;
 }
-
+.foot_links p{
+    font-size: 1.3rem;
+}
 .s_icon {
     cursor: pointer;
 }
@@ -390,9 +409,40 @@ footer {
 
     .section3 img {
         width: 100%;
+        margin-top: 2px;
     }
 
     .hero_buttons {
         flex-direction: column;
     }
+
+    .foot_section_1 {
+        flex-direction: column;
+    }
+
+    .Social_LinksContainer {
+        justify-content: center;
+    }
+
+    .foot_links {
+        padding: 16px 0;
+    }
+
+    .foot_section2 {
+        padding: 0 0 30px 0;
+    }
+
+    .section3_about_title {
+        text-align: center;
+    }
+
+    .top_navigation {
+        min-width: 90%;
+    }
+    .hero_heading h1 {
+        max-width: 95%;
+    }
+    .hero_paragrap p {
+    max-width: 95%;
+}
 }
