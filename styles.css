@@ -104,6 +104,10 @@ header {
 
 .hero_heading {
     padding: 16px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero_heading h1 {
     font-weight: 700;
