@@ -497,5 +497,11 @@ footer {
     .section4 h1 {
         font-size: 53px;
         font-weight: bold;
+    }.s_icon:nth-child(1){
+        left: 13%;
+    }.s_icon:nth-child(2){
+        left: 36%;
+    }.s_icon:nth-child(3){
+        left: 61%;
     }
 }
