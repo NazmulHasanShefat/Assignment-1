@@ -208,6 +208,7 @@ header {
 /* ======================================== start section 2 =================================================== */
 .section2 {
     min-height: 300px;
+    background-color: #fbfbfb;
 }
 
 .section2_heading {
@@ -225,12 +226,11 @@ header {
 
 .section2_cards {
     width: 100%;
-    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 
 }
 
@@ -238,12 +238,13 @@ header {
     max-width: 322px;
     height: max-content;
     padding: 24px;
+    height: 300px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 4px;
     border: 1px solid var(--border);
     border-radius: 8px;
