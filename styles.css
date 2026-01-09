@@ -237,7 +237,6 @@ header {
 .section2 .card {
     max-width: 322px;
     height: max-content;
-    border: 1px solid red;
     padding: 24px;
     text-align: center;
     display: flex;
@@ -247,7 +246,7 @@ header {
     background-color: #fff;
     border-radius: 4px;
     border: 1px solid var(--border);
-
+    border-radius: 8px;
 }
 
 .section2 .card .card_logo {
