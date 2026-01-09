@@ -169,8 +169,13 @@ header {
 .hero_btn1:hover {
     color: #fff;
     background-color: #19743e;
-}.hero_btn1 img{transition: all .2s ease-in-out;}
-.hero_btn1:hover img{
+}
+
+.hero_btn1 img {
+    transition: all .2s ease-in-out;
+}
+
+.hero_btn1:hover img {
     transform: translateX(3px);
 }
 
@@ -183,13 +188,18 @@ header {
     border: 1px solid #fff;
     color: #fff;
     transition: all .2s ease-in-out;
-    svg{transition: all .2s ease-in-out;}
+
+    svg {
+        transition: all .2s ease-in-out;
+    }
 }
+
 .hero_btn2:hover {
     background-color: #30B868;
     border: 1px solid transparent;
 }
-.hero_btn2:hover svg{
+
+.hero_btn2:hover svg {
     transform: scale(0.8);
 }
 
@@ -377,12 +387,31 @@ footer {
     align-items: center;
     gap: 6px;
     padding: 10px 0;
+    position: relative;
 }
-.foot_links p{
+
+.foot_links p {
     font-size: 1.3rem;
 }
+
 .s_icon {
     cursor: pointer;
+    position: absolute;
+    top: 6px
+}
+.s_icon:nth-child(2){
+    left: 26px;
+}
+.s_icon:nth-child(3){
+    left: 52px;
+}
+.s_icon:hover svg{
+    transition: all .2s ease-in-out;
+}
+.s_icon:hover svg{
+    fill: #19743e;
+    width: 25px;
+    height: 25px;
 }
 
 .foot_section2 {
@@ -439,10 +468,12 @@ footer {
     .top_navigation {
         min-width: 90%;
     }
+
     .hero_heading h1 {
         max-width: 95%;
     }
+
     .hero_paragrap p {
-    max-width: 95%;
-}
+        max-width: 95%;
+    }
 }
